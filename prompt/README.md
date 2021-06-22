@@ -2,7 +2,6 @@
 
 Final phase down -- you're absolutely crushing it! You've made it all the way through one of the toughest phase of this course. You must have an amazing brain in your head!
 
-<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-4-project/main/images/brain.gif'>
 
 ## Project Overview
 
