@@ -1,4 +1,4 @@
-X-Ray Image Classification (in progress)
+# X-Ray Image Classification: Identifying Pneumonia
 
 ## Introduction
 
@@ -11,38 +11,36 @@ X-Ray Image Classification (in progress)
 │                        methodology, and findings
 │
 ├── data             <-- Data in CSV format
-│   ├── processed    <-- Processed (combined, cleaned) data used for modeling
 │   └── raw          <-- Original (immutable) data dump
 │
 ├── images           <-- Figures used in presentation and notebooks
 │
 ├── notebooks        <-- Jupyter Notebooks for exploration and presentation
-│   └── exploratory  <-- Unpolished exploratory data analysis (EDA) notebooks
 │
-├── reports          <-- Generated analysis (including presentation.pdf)
-│
-└── src              <-- Python source code for custom functions used in project
+└── reports          <-- Generated analysis (including presentation)
 ```
 
 
 
 
 ## Data Sources & Preparation
-#### Source
+### Source
+The data used in this analysis was original provided in an academic report cited below and later adapted to a Kaggle dataset, referenced below.
 
-#### Citation for original academic dataset:
+#### Original academic dataset:
 
 Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
 
 https://data.mendeley.com/datasets/rscbjbr9sj/3
 
 
-#### Link to corresponding Kaggle dataset: 
+#### Corresponding Kaggle dataset: 
 
 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 
 #### Preparation
+The data provided for this analysis was already well processed. It had been prepared sufficiently to be the basis of peer-reviewed academic research, and therefore did not require further preprocessing.
 
 
 ## Data Understanding
@@ -64,4 +62,10 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 
 ## Further Investigation
+This investigation leaves several aspects of the analysis underdeveloped, leaving space for expanded future analysis. 
 
+- Hyperparameter tuning
+
+- Testing generic pre-defined neural networks
+
+- Increasing resolution of images
