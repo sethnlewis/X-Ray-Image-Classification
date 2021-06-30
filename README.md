@@ -1,4 +1,4 @@
-X-Ray Image Classification (in progress)
+# X-Ray Image Classification: Identifying Pneumonia
 
 ## Introduction
 
@@ -29,15 +29,16 @@ X-Ray Image Classification (in progress)
 
 ## Data Sources & Preparation
 #### Source
+The data used in this analysis was original provided in an academic report cited below and later adapted to a Kaggle dataset, referenced below.
 
-#### Citation for original academic dataset:
+##### Original academic dataset:
 
 Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
 
 https://data.mendeley.com/datasets/rscbjbr9sj/3
 
 
-#### Link to corresponding Kaggle dataset: 
+##### Corresponding Kaggle dataset: 
 
 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
@@ -64,4 +65,10 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 
 ## Further Investigation
+This investigation leaves several aspects of the analysis underdeveloped, leaving space for expanded future analysis. 
 
+- Hyperparameter tuning
+
+- Testing generic pre-defined neural networks
+
+- Increasing resolution of images
