@@ -1,5 +1,5 @@
 # X-Ray Image Classification: Identifying Pneumonia 
-### *(IN PROGRESS)*
+## *(PROJECT CURRENTLY IN PROGRESS)*
 
 ## Introduction
 
