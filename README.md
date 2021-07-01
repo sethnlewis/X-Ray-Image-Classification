@@ -1,4 +1,5 @@
-# X-Ray Image Classification: Identifying Pneumonia (*IN PROGRESS*)
+# X-Ray Image Classification: Identifying Pneumonia 
+## *(PROJECT CURRENTLY IN PROGRESS)*
 
 ## Introduction
 
@@ -40,7 +41,6 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 
 #### Preparation
-The data provided for this analysis was already well processed. It had been prepared sufficiently to be the basis of peer-reviewed academic research, and therefore did not require further preprocessing.
 
 
 ## Data Understanding
@@ -64,8 +64,8 @@ The data provided for this analysis was already well processed. It had been prep
 ## Further Investigation
 This investigation leaves several aspects of the analysis underdeveloped, leaving space for expanded future analysis. 
 
-- Hyperparameter tuning
+- Extensive grid-based hyperparameter tuning
 
 - Testing generic pre-defined neural networks
 
-- Increasing resolution of images
+- Increasing resolution of images. Currently they are downsampled substantially to prevent RAM issues.
