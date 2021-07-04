@@ -134,6 +134,4 @@ report/Presentation.pptx
 report/Presentation.mp4
 report/GitHub Repository.pdf
 report/Jupyter notebook printout.pdf
-ZhangLabData.zip
-data/raw/ZhangLabData
-best_model.h5
+notebooks/tmp

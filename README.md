@@ -1,16 +1,14 @@
 # X-Ray Image Classification: Identifying Pneumonia 
-## *(PROJECT CURRENTLY IN PROGRESS)*
 
 ## Introduction
-
+The purpose of this analysis is to design a model that can use chest x-ray images to identify pneumonia. According to the American Thoracic Society, pneumonia is the [leading cause of death](https://www.thoracic.org/patients/patient-resources/resources/top-pneumonia-facts.pdf) among children under age 5, accounting for roughly 16% of all deaths within that age range in 2015. The application of machine learning techniques such as neural networks can help identify the presence of pneumonia using exclusively chest x-rays. 
 
 
 **Repository Directory**
 
 ```
-├── README.md        <-- Main README file explaining the project's purpose,
-│                        methodology, and findings
-│
+
+│                        
 ├── data             <-- Data in CSV format
 │   └── raw          <-- Original (immutable) data dump
 │
@@ -18,33 +16,24 @@
 │
 ├── notebooks        <-- Jupyter Notebooks for exploration and presentation
 │
-└── reports          <-- Generated analysis (including presentation)
+├── reports          <-- Generated analysis (including presentation)
+│
+└── README.md        <-- Main README file explaining the project's purpose, methodology, and findings
+
 ```
 
 
 
 
-## Data Sources & Preparation
-### Source
-The data used in this analysis was original provided in an academic report cited below and later adapted to a Kaggle dataset, referenced below.
+## Data Source
+The data used in this analysis was original provided by Mendeley Data and is publicly available [here](https://data.mendeley.com/datasets/rscbjbr9sj/3) (1). The dataset was subsequently adapted to a Kaggle dataset, which can be found [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
 
-#### Original academic dataset:
+In total, 5856 X-ray images in jpeg format are provided. Each is already labeled to indicate whether or not pneumonia is present.
 
-Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
-
-https://data.mendeley.com/datasets/rscbjbr9sj/3
-
-
-#### Corresponding Kaggle dataset: 
-
-https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-
-
-#### Preparation
 
 
 ## Data Understanding
-
+After 
 
 
 
