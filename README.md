@@ -40,15 +40,20 @@ Note that the jump in accuracy (and other performance metrics to a similar exten
 
 
 ## Modeling
- The analysis explores seven different iterations of neural networks to find the highest performance. Models started as simple as one dense layer with two nodes. Throughout the process, different layers with different hyperparameters were strategically added. Improvements included 2D convolutional layers, regularization, pooling and dropout. 
+ The analysis explores seven different iterations of neural networks to find the highest performance. Models started as simple as one dense layer with two nodes. Throughout the process, different layers with different hyperparameters were strategically added. Improvements included 2D convolutional layers, regularization, pooling and dropout. After substantial tuning, a model was developed that demonstrated very little overfitting due to consistent use of regularization, pooling and dropout. Below, the accuracy is shown across the range of epochs while the model was training. 
+ 
+ <img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/performance_over_epochs_accuracy.png" width="500">
 
 
 ## Evaluation
 After running each of the models using an array of hyperparameters, the top performing model was selected. It was composed of 3 Convolutional layers, each of which were followed by a Pooling and Dropout layer. The model architecture can be seen below. 
 
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/neural_network_diagram.png" width="335">
+
+Further, the below images show the performance of this final model in the form of a confusion matrix. The first shows the actual numbers of images in each classification category, whereas the second shows those values normalized.
+
 
 ## Conclusion
-
 
 
 
