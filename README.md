@@ -16,7 +16,7 @@ The purpose of this analysis is to design a model that can use chest x-ray image
 │
 ├── notebooks        <-- Jupyter Notebooks for exploration and presentation
 │
-├── reports          <-- Generated analysis (including presentation)
+├── report           <-- Generated analysis (including presentation)
 │
 └── README.md        <-- Main README file explaining the project's purpose, methodology, and findings
 
