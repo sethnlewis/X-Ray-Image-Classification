@@ -1,3 +1,3 @@
-# Reports
+### Reports
 
-Report detailing findings of analysis.
+This directory contains a report detailing findings of analysis along with copies of the final repository. 
