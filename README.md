@@ -50,11 +50,19 @@ After running each of the models using an array of hyperparameters, the top perf
 
 <img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/neural_network_diagram.png" width="335">
 
+
 Further, the below images show the performance of this final model in the form of a confusion matrix. The first shows the actual numbers of images in each classification category, whereas the second shows those values normalized.
+
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/best_model_confusion_matrix_count.png" width="450">
+
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/best_model_confusion_matrix_percent.png" width="450">
+
 
 
 ## Conclusion
+Taking a step back, the investigation successfully led to a model that can classify pneumonia based on a single chest x-ray with approximately 96% accuracy. Of note, the algorithm only "missed" 0.04% of all cases, representing the False Negative portion of the confusion matrix. This metric is especially important in medical applications because telling a patient they are healthy when in fact they are not is the worst possible outcome.
 
+In addition to high performance of the final model, the process proved effective in overall performance improvements across the board both from the baseline model and the first simple model. The final model also showed only small signs of overfitting, largely due to regularization and dropout, which makes for a versatile, more widely applicable model. 
 
 
 ### Future improvements
