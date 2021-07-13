@@ -136,3 +136,5 @@ report/GitHub Repository.pdf
 report/Jupyter notebook printout.pdf
 images.pptx
 *.h5
+performance_over_epochs_percent.png
+performance_over_epochs_count.png
