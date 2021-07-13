@@ -32,7 +32,20 @@ The data used in this analysis was original provided by Mendeley Data and is pub
 
 ## Data Understanding
 
-In total, 5856 X-ray images in jpeg format are provided. Each is placed in a folder corresponding to whether or not the patient had pneumonia. Although the images were split into *train*, *validation* and *test* folders by the original source, there is controversy that some of the images in the *test* folder were incorrectly classified. In the EDA phase of this project, this finding was determined to be likely. The was determined by training and evaluating the models in two separate ways:
+In total, 5856 X-ray images in jpeg format are provided. Each is placed in a folder corresponding to whether or not the patient had pneumonia. Examples can be seen below.
+
+#### No pneumonia (healthy) 
+ <img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/xrays_pneumonia.png" width="500">
+
+
+#### Pneumonia
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/xrays_normal.png" width="500">
+
+To an untrained eye, it can be incredibly difficult (if not impossible) to classify each of these images as with or without pneumonia. 
+
+-----
+
+Although the images were split into *train*, *validation* and *test* folders by the original source, there is controversy that some of the images in the *test* folder were incorrectly classified. In the EDA phase of this project, this finding was determined to be likely. The was determined by training and evaluating the models in two separate ways:
 1. Using the original train-test split, the model accuracy was in the 70-75% range. 
 2. Importing train and test data into one array, then performing a train-test split within the code, the model accuracy jumped to 93-98%. 
 
