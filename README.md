@@ -73,7 +73,7 @@ Further, the below images show the performance of this final model in the form o
 
 
 ## Conclusion
-Taking a step back, the investigation successfully led to a model that can classify pneumonia based on a single chest x-ray with approximately 96% accuracy. Of note, the algorithm only "missed" 0.04% of all cases, representing the False Negative portion of the confusion matrix. This metric is especially important in medical applications because telling a patient they are healthy when in fact they are not is the worst possible outcome.
+Taking a step back, the investigation successfully led to a model that can classify pneumonia based on a single chest x-ray with approximately 96% accuracy. Of note, the algorithm only "missed" 2% of all cases, representing the False Negative portion of the confusion matrix. This metric is especially important in medical applications because telling a patient they are healthy when in fact they are not is the worst possible outcome.
 
 In addition to high performance of the final model, the process proved effective in overall performance improvements across the board both from the baseline model and the first simple model. The final model also showed only small signs of overfitting, largely due to regularization and dropout, which makes for a versatile, more widely applicable model. 
 
