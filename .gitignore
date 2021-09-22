@@ -130,10 +130,7 @@ dmypy.json
 
 
 # SPECIFIC TO THIS ANALYSIS
-report/Presentation.pptx
-report/Presentation.mp4
-report/GitHub Repository.pdf
-report/Jupyter notebook printout.pdf
+report/project submission/*
 images.pptx
 *.h5
 performance_over_epochs_percent.png
