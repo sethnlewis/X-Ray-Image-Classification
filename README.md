@@ -9,16 +9,15 @@ The purpose of this analysis is to design a model that can use chest x-ray image
 ```
 
 │                        
-├── data             <-- Data in CSV format
-│   └── raw          <-- Original (immutable) data dump
+├── data         <-- Data used in analysis
+│   └── raw      <-- Original (immutable) data dump
 │
-├── images           <-- Figures used in presentation and notebooks
+├── notebooks    <-- Jupyter notebook for exploration and presentation
 │
-├── notebooks        <-- Jupyter Notebooks for exploration and presentation
+├── report       <-- Generated analysis (including presentation)
+│   └── figures  <-- Figures used in presentation and notebooks
 │
-├── report           <-- Generated analysis (including presentation)
-│
-└── README.md        <-- Main README file explaining the project's purpose, methodology, and findings
+└── README.md    <-- High-level explaining the project's purpose, methodology, and findings
 
 ```
 
@@ -35,11 +34,11 @@ The data used in this analysis was original provided by Mendeley Data and is pub
 In total, 5856 X-ray images in jpeg format are provided. Each is placed in a folder corresponding to whether or not the patient had pneumonia. Examples can be seen below.
 
 #### No pneumonia (healthy) 
- <img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/xrays_pneumonia.png" width="500">
+ <img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/report/figures/xrays_pneumonia.png" width="500">
 
 
 #### Pneumonia
-<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/xrays_normal.png" width="500">
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/report/figures/xrays_normal.png" width="500">
 
 To an untrained eye, it can be incredibly difficult (if not impossible) to classify each of these images as with or without pneumonia. 
 
@@ -55,20 +54,20 @@ Note that the jump in accuracy (and other performance metrics to a similar exten
 ## Modeling
  The analysis explores seven different iterations of neural networks to find the highest performance. Models started as simple as one dense layer with two nodes. Throughout the process, different layers with different hyperparameters were strategically added. Improvements included 2D convolutional layers, regularization, pooling and dropout. After substantial tuning, a model was developed that demonstrated very little overfitting due to consistent use of regularization, pooling and dropout. Below, the accuracy is shown across the range of epochs while the model was training. 
  
- <img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/performance_over_epochs_accuracy.png" width="500">
+ <img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/report/figures/performance_over_epochs_accuracy.png" width="500">
 
 
 ## Evaluation
 After running each of the models using an array of hyperparameters, the top performing model was selected. It was composed of 3 Convolutional layers, each of which were followed by a Pooling and Dropout layer. The model architecture can be seen below. 
 
-<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/neural_network_diagram.png" width="335">
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/report/figures/neural_network_diagram.png" width="335">
 
 
 Further, the below images show the performance of this final model in the form of a confusion matrix. The first shows the actual numbers of images in each classification category, whereas the second shows those values normalized.
 
-<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/best_model_confusion_matrix_count.png" width="450">
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/report/figures/best_model_confusion_matrix_count.png" width="450">
 
-<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/images/best_model_confusion_matrix_percent.png" width="450">
+<img src="https://github.com/sethschober/X-Ray-Image-Classification/blob/main/report/figures/best_model_confusion_matrix_percent.png" width="450">
 
 
 
